@@ -1,0 +1,450 @@
+[
+  {
+    "ville": "AGADIR",
+    "region_id": 11
+  },
+  {
+    "ville": "AHFIR",
+    "region_id": 9
+  },
+  {
+    "ville": "AIN AOUDA",
+    "region_id": 10
+  },
+  {
+    "ville": "AL AAROUI",
+    "region_id": 9
+  },
+  {
+    "ville": "AL HOCEIMA",
+    "region_id": 12
+  },
+  {
+    "ville": "ASILAH",
+    "region_id": 12
+  },
+  {
+    "ville": "ASSA",
+    "region_id": 6
+  },
+  {
+    "ville": "AZILAL",
+    "region_id": 1
+  },
+  {
+    "ville": "AZROU",
+    "region_id": 5
+  },
+  {
+    "ville": "BEN AHMED",
+    "region_id": 2
+  },
+  {
+    "ville": "BEN SLIMANE",
+    "region_id": 2
+  },
+  {
+    "ville": "BENGRIR",
+    "region_id": 8
+  },
+  {
+    "ville": "BENI MELLAL",
+    "region_id": 1
+  },
+  {
+    "ville": "BERKANE",
+    "region_id": 9
+  },
+  {
+    "ville": "BERRECHID",
+    "region_id": 2
+  },
+  {
+    "ville": "BIOUGRA",
+    "region_id": 11
+  },
+  {
+    "ville": "BOUARFA",
+    "region_id": 9
+  },
+  {
+    "ville": "BOUIZAKAREN",
+    "region_id": 6
+  },
+  {
+    "ville": "BOUJAAD",
+    "region_id": 1
+  },
+  {
+    "ville": "BOUJDOUR",
+    "region_id": 7
+  },
+  {
+    "ville": "BOUJNIBA",
+    "region_id": 1
+  },
+  {
+    "ville": "BOUZNIKA",
+    "region_id": 2
+  },
+  {
+    "ville": "CASABLANCA",
+    "region_id": 2
+  },
+  {
+    "ville": "CHEFCHAOUEN",
+    "region_id": 12
+  },
+  {
+    "ville": "CHICHAOUA",
+    "region_id": 8
+  },
+  {
+    "ville": "DAKHLA",
+    "region_id": 7
+  },
+  {
+    "ville": "DEMNATE",
+    "region_id": 1
+  },
+  {
+    "ville": "EL AIOUN",
+    "region_id": 9
+  },
+  {
+    "ville": "EL BROUJ",
+    "region_id": 2
+  },
+  {
+    "ville": "EL GARA",
+    "region_id": 2
+  },
+  {
+    "ville": "EL HAJEB",
+    "region_id": 5
+  },
+  {
+    "ville": "EL HAOUZ",
+    "region_id": 8
+  },
+  {
+    "ville": "EL JADIDA",
+    "region_id": 2
+  },
+  {
+    "ville": "EL KARIA",
+    "region_id": 2
+  },
+  {
+    "ville": "ERFOUD",
+    "region_id": 3
+  },
+  {
+    "ville": "ERRACHIDIA",
+    "region_id": 3
+  },
+  {
+    "ville": "ES-SEMARA",
+    "region_id": 7
+  },
+  {
+    "ville": "ESSAOUIRA",
+    "region_id": 8
+  },
+  {
+    "ville": "FES",
+    "region_id": 5
+  },
+  {
+    "ville": "FIGUIG",
+    "region_id": 9
+  },
+  {
+    "ville": "FNIDEQ",
+    "region_id": 12
+  },
+  {
+    "ville": "FQUIH BEN SALAH",
+    "region_id": 1
+  },
+  {
+    "ville": "GOULMIMA",
+    "region_id": 3
+  },
+  {
+    "ville": "GUELMIM",
+    "region_id": 6
+  },
+  {
+    "ville": "GUERCIF",
+    "region_id": 9
+  },
+  {
+    "ville": "HAD SOUALEM",
+    "region_id": 2
+  },
+  {
+    "ville": "HATTANE",
+    "region_id": 1
+  },
+  {
+    "ville": "IFRANE",
+    "region_id": 5
+  },
+  {
+    "ville": "IMZOUREN",
+    "region_id": 12
+  },
+  {
+    "ville": "INEZGANE",
+    "region_id": 11
+  },
+  {
+    "ville": "JERRADA",
+    "region_id": 9
+  },
+  {
+    "ville": "KALAA DES SRAGHNAS",
+    "region_id": 8
+  },
+  {
+    "ville": "KENITRA",
+    "region_id": 10
+  },
+  {
+    "ville": "KHENIFRA",
+    "region_id": 1
+  },
+  {
+    "ville": "KHMISSET",
+    "region_id": 10
+  },
+  {
+    "ville": "KHOURIBGA",
+    "region_id": 1
+  },
+  {
+    "ville": "KSAR EL KEBIR",
+    "region_id": 12
+  },
+  {
+    "ville": "KSAR SGHIR",
+    "region_id": 12
+  },
+  {
+    "ville": "KSBAT TADLA",
+    "region_id": 1
+  },
+  {
+    "ville": "LAAYOUNE",
+    "region_id": 7
+  },
+  {
+    "ville": "LAHRAOUYINE",
+    "region_id": 2
+  },
+  {
+    "ville": "LARACHE",
+    "region_id": 12
+  },
+  {
+    "ville": "M'DIQ",
+    "region_id": 12
+  },
+  {
+    "ville": "MACHRAA BELKSIRI",
+    "region_id": 10
+  },
+  {
+    "ville": "MARRAKECH",
+    "region_id": 8
+  },
+  {
+    "ville": "MARTIL",
+    "region_id": 12
+  },
+  {
+    "ville": "MEDIOUNA",
+    "region_id": 2
+  },
+  {
+    "ville": "MEKNES",
+    "region_id": 5
+  },
+  {
+    "ville": "MIDELT",
+    "region_id": 3
+  },
+  {
+    "ville": "MIRLEFT",
+    "region_id": 6
+  },
+  {
+    "ville": "MISSOUR",
+    "region_id": 5
+  },
+  {
+    "ville": "MOHAMMEDIA",
+    "region_id": 2
+  },
+  {
+    "ville": "MRIRT",
+    "region_id": 1
+  },
+  {
+    "ville": "NADOR",
+    "region_id": 9
+  },
+  {
+    "ville": "OUAOUIZERTH",
+    "region_id": 1
+  },
+  {
+    "ville": "OUARZAZATE",
+    "region_id": 3
+  },
+  {
+    "ville": "OUAZZANE",
+    "region_id": 12
+  },
+  {
+    "ville": "OUED ZEM",
+    "region_id": 1
+  },
+  {
+    "ville": "OUJDA",
+    "region_id": 9
+  },
+  {
+    "ville": "OULAD MRAH",
+    "region_id": 2
+  },
+  {
+    "ville": "OULED TEIMA",
+    "region_id": 11
+  },
+  {
+    "ville": "RABAT",
+    "region_id": 10
+  },
+  {
+    "ville": "SAFI",
+    "region_id": 8
+  },
+  {
+    "ville": "SALE",
+    "region_id": 10
+  },
+  {
+    "ville": "SEFROU",
+    "region_id": 5
+  },
+  {
+    "ville": "SETTAT",
+    "region_id": 2
+  },
+  {
+    "ville": "SIDI IFNI",
+    "region_id": 6
+  },
+  {
+    "ville": "SIDI KACEM",
+    "region_id": 10
+  },
+  {
+    "ville": "SIDI SLIMANE",
+    "region_id": 10
+  },
+  {
+    "ville": "Skhirat",
+    "region_id": 10
+  },
+  {
+    "ville": "SOUK LARBAA",
+    "region_id": 10
+  },
+  {
+    "ville": "SOUK SEBT",
+    "region_id": 8
+  },
+  {
+    "ville": "TAHANNAOUT",
+    "region_id": 8
+  },
+  {
+    "ville": "TAMENSOURT",
+    "region_id": 8
+  },
+  {
+    "ville": "TANGER",
+    "region_id": 12
+  },
+  {
+    "ville": "TANTAN",
+    "region_id": 6
+  },
+  {
+    "ville": "TAOUNATE",
+    "region_id": 5
+  },
+  {
+    "ville": "TAOURIRT",
+    "region_id": 9
+  },
+  {
+    "ville": "TARGUIST",
+    "region_id": 12
+  },
+  {
+    "ville": "TAROUDANT",
+    "region_id": 11
+  },
+  {
+    "ville": "TASSILA",
+    "region_id": 11
+  },
+  {
+    "ville": "TATA",
+    "region_id": 11
+  },
+  {
+    "ville": "TAZA",
+    "region_id": 5
+  },
+  {
+    "ville": "TEMARA",
+    "region_id": 10
+  },
+  {
+    "ville": "TETOUAN",
+    "region_id": 12
+  },
+  {
+    "ville": "TIFLET",
+    "region_id": 10
+  },
+  {
+    "ville": "TINGHIR",
+    "region_id": 3
+  },
+  {
+    "ville": "TIT MELLIL",
+    "region_id": 2
+  },
+  {
+    "ville": "TIZNIT",
+    "region_id": 11
+  },
+  {
+    "ville": "YOUSSOUFIA",
+    "region_id": 8
+  },
+  {
+    "ville": "ZAGORA",
+    "region_id": 3
+  },
+  {
+    "ville": "ZAIO",
+    "region_id": 9
+  }
+]
