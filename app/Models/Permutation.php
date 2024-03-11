@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Permutation extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'date',
+        'valide',
+        'ville_id',
+        'formateur_id'
+    ];
 }
