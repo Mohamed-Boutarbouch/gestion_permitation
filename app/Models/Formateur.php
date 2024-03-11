@@ -20,7 +20,7 @@ class Formateur extends Model
         'tel',
         'email',
         'password',
-        'matier_id',
+        'metier_id',
         'etablissement_id'
     ];
 }

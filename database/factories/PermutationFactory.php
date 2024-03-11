@@ -2,6 +2,8 @@
 
 namespace Database\Factories;
 
+use App\Models\Formateur;
+use App\Models\Ville;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -17,7 +19,10 @@ class PermutationFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'date' => fake()->date(),
+            'valide' => fake()->boolean(),
+            'ville_id' => Ville::inRandomOrder()->first()->id,
+            'formateur_id' => Formateur::inRandomOrder()->first()->id
         ];
     }
 }

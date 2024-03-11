@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Ville;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -12,6 +13,11 @@ class VilleSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        $json = file_get_contents(database_path('json/villes.json'));
+        $villes = json_decode($json, true);
+
+        foreach ($villes as $ville) {
+            Ville::create($ville);
+        }
     }
 }

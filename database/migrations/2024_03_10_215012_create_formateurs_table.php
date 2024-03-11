@@ -23,12 +23,12 @@ return new class extends Migration
             $table->string('tel');
             $table->string('email')->unique();
             $table->string('password');
-            $table->foreignId('matier_id')
+            $table->foreignId('metier_id')
                 ->constrained()
                 ->cascadeOnDelete();
             $table->foreignId('etablissement_id')
-            ->constrained()
-            ->cascadeOnDelete();
+                ->constrained()
+                ->cascadeOnDelete();
             $table->timestamps();
         });
     }
