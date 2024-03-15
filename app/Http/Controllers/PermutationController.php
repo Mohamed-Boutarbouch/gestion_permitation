@@ -13,7 +13,7 @@ class PermutationController extends Controller
      */
     public function index()
     {
-        //
+        return view('permutation.index', ['permutations' => Permutation::paginate(10)]);
     }
 
     /**
