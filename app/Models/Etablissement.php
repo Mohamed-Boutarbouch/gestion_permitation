@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Etablissement extends Model
 {
@@ -17,4 +19,14 @@ class Etablissement extends Model
         'fax',
         'ville_id'
     ];
+
+    public function formateurs(): HasMany
+    {
+        return $this->hasMany(Formateur::class);
+    }
+
+    public function ville(): BelongsTo
+    {
+        return $this->belongsTo(Ville::class);
+    }
 }

@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Formateur extends Model
 {
@@ -23,4 +25,19 @@ class Formateur extends Model
         'metier_id',
         'etablissement_id'
     ];
+
+    public function permutation(): HasOne
+    {
+        return $this->hasOne(Permutation::class);
+    }
+
+    public function metier(): BelongsTo
+    {
+        return $this->belongsTo(Metier::class);
+    }
+
+    public function etablissement(): BelongsTo
+    {
+        return $this->belongsTo(Etablissement::class);
+    }
 }

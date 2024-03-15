@@ -15,4 +15,14 @@ class Permutation extends Model
         'ville_id',
         'formateur_id'
     ];
+
+    public function formateur()
+    {
+        return $this->belongsTo(Formateur::class);
+    }
+
+    public function ville()
+    {
+        return $this->belongsTo(Formateur::class);
+    }
 }
