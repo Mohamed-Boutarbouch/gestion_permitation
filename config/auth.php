@@ -40,6 +40,11 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+
+        'formateur' => [
+            'driver' => 'session',
+            'provider' => 'formateurs',
+        ]
     ],
 
     /*
@@ -62,13 +67,18 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\Models\User::class,
+            'model' => App\Models\Formateur::class,
         ],
 
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',
         // ],
+
+        'formateurs' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Formateur::class,
+        ],
     ],
 
     /*

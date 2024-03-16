@@ -14,9 +14,9 @@
                             <img class="profile-user-img img-fluid img-circle" src="../../dist/img/user4-128x128.jpg" alt="User profile picture">
                         </div>
 
-                        <h3 class="profile-username text-center">Nina Mcintire</h3>
+                        <h3 class="profile-username text-center">{{ $formateur->prenom }} {{ $formateur->nom }}</h3>
 
-                        <p class="text-muted text-center">Software Engineer</p>
+                        <p class="text-muted text-center">{{ $formateur->metier->metier }}</p>
                     </div>
                     <!-- /.card-body -->
                 </div>
@@ -29,35 +29,38 @@
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
-                        <strong><i class="fas fa-book mr-1"></i> Education</strong>
+                        <strong><i class="fas fa-book mr-1"></i> Poste</strong>
 
                         <p class="text-muted">
-                            B.S. in Computer Science from the University of Tennessee at Knoxville
+                            {{ $formateur->poste }}
                         </p>
 
                         <hr>
 
-                        <strong><i class="fas fa-map-marker-alt mr-1"></i> Location</strong>
+                        <strong><i class="fas fa-book mr-1"></i> Grade</strong>
 
-                        <p class="text-muted">Malibu, California</p>
+                        <p class="text-muted">
+                            {{ $formateur->grade }}
+                        </p>
 
                         <hr>
 
-                        <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong>
+                        <strong><i class="fas fa-map-marker-alt mr-1"></i> Etablissement</strong>
 
-                        <p class="text-muted">
-                            <span class="tag tag-danger">UI Design</span>
-                            <span class="tag tag-success">Coding</span>
-                            <span class="tag tag-info">Javascript</span>
-                            <span class="tag tag-warning">PHP</span>
-                            <span class="tag tag-primary">Node.js</span>
-                        </p>
+                        <p class="text-muted"> {{ $formateur->etablissement->etablissement }}</p>
+
+                        <hr>
+
+                        <strong><i class="fas fa-pencil-alt mr-1"></i> Telephone</strong>
+
+                        <p class="text-muted">{{ $formateur->tel }}</p>
+
 
                         <hr>
 
                         <strong><i class="far fa-file-alt mr-1"></i> Notes</strong>
 
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
+                        <p class="text-muted">{{ $formateur->email }}</p>
                     </div>
                     <!-- /.card-body -->
                 </div>
@@ -75,20 +78,20 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="nom">Nom</label>
-                                <input type="text" class="form-control" id="nom" placeholder="Enter nom">
+                                <input type="text" class="form-control" id="nom" placeholder="Enter nom" value="{{ $formateur->nom }}">
                             </div>
                             <div class="form-group">
                                 <label for="prenom">Prenom</label>
-                                <input type="text" class="form-control" id="prenom" placeholder="Enter prenom">
+                                <input type="text" class="form-control" id="prenom" placeholder="Enter prenom" value="{{ $formateur->prenom }}">
                             </div>
                             <div class="form-group">
                                 <label for="grade">Grade</label>
-                                <input type="text" class="form-control" id="grade" placeholder="Enter grade">
+                                <input type="text" class="form-control" id="grade" placeholder="Enter grade" value="{{ $formateur->grade }}">
                             </div>
                             <div class="form-group">
                                 <label>Date Naissance:</label>
                                 <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" />
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" value="{{ $formateur->date_naissance }}" />
                                     <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                                         <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                     </div>
@@ -97,7 +100,7 @@
                             <div class="form-group">
                                 <label>Date Recrutement:</label>
                                 <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" />
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" value="{{ $formateur->date_recrutement }}" />
                                     <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                                         <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                     </div>
@@ -105,7 +108,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="poste">Poste</label>
-                                <input type="text" class="form-control" id="poste" placeholder="Enter poste">
+                                <input type="text" class="form-control" id="poste" placeholder="Enter poste" value="{{ $formateur->poste }}">
                             </div>
                             <div class="form-group">
                                 <label>Metier</label>
@@ -129,15 +132,11 @@
                             </div>
                             <div class="form-group">
                                 <label for="telephone">Telephone</label>
-                                <input type="tel" class="form-control" id="telephone" placeholder="Enter telephone">
+                                <input type="tel" class="form-control" id="telephone" placeholder="Enter telephone" value="{{ $formateur->tel }}">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" value="{{ $formateur->email }}">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputFile">File input</label>
